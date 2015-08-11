@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:background="#FFF">
+
+    <ImageView
+        android:id="@+id/contentImg"
+        android:src="@drawable/abc_ic_voice_search_api_mtrl_alpha"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/contentItemName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="72dp"
+        android:paddingTop="20dp"
+        android:text="Nestle Milk"
+        android:textSize="16sp"
+        android:textColor="@color/myTextPrimaryColor"/>
+
+    <TextView
+        android:id="@+id/contentItemInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="72dp"
+        android:paddingTop="40dp"
+        android:text="Milk Price: 150"
+        android:textSize="14sp"
+        android:textColor="@color/myTextSecondaryColor"/>
+
+</RelativeLayout>
+
